@@ -1,0 +1,55 @@
+.navbar{
+    height: 100%;
+    width: 30%;
+    box-sizing: border-box;
+    border-right: #F6F3ED solid 1px;
+    overflow-x: scroll;
+    /* margin-right: 20px; */
+}
+.logo{
+    box-sizing: border-box;
+    /* border: 12px solid; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 36px;
+    padding: 20px;
+}
+.menu-level-one, .menu-level-two, .menu-level-three{
+    color: grey;
+    border-bottom: solid #F6F3ED 1px;
+    margin: 16px;
+}
+.menu-level-two{
+    
+}
+.menu-level-three{
+    
+}
+/* .menu-level-one :hover, .menu-level-two :hover, .menu-level-three :hover{
+ border-left: #F4A261 solid;
+} */
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.list-1{
+    padding-left:12px ;
+}
+.list-1:hover{
+    border-left: #F4A261 solid;
+}
+
+.list-2{
+    padding-left:12px ;
+}
+.list-2:hover{
+    border-left: #F4A261 solid;
+}
+
+.list-3{
+    padding-left:12px ;
+}
+.list-3:hover{
+    border-left: #F4A261 solid;
+}

@@ -1,0 +1,266 @@
+/* .retailer-container{
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 8px;
+}
+.retailer-heading{
+    border-bottom: solid;
+    box-sizing: border-box;
+    padding: 28px;
+}
+.shop-details-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.primary-details{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.secondary-details{
+    border: solid;
+    height: 100%;
+    width: 100%;
+}
+.label, .input{
+    display: block;
+}
+.label{
+    color: #977A68;
+    opacity: 1;
+    width: 100%;
+    height: 11px;
+    margin-bottom: 14px;
+}
+.input{
+    height: 39px;
+    width: 525px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: solid #F6F3ED 1px;
+}
+.city-and-pin-block{
+    display: flex;
+
+}
+.input-city{
+    height: 39px;
+    width: 525px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: solid #F6F3ED 1px;
+}
+.input-pincode{
+    height: 39px;
+    width: 525px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: solid #F6F3ED 1px;
+}
+.shop-owner-details{
+    border: solid;
+    display: flex;
+}
+.new-shop-owner-name-container{
+    border:solid;
+    width: 100%;
+}
+.new-shop-owner-number-and-email-container{
+    border: solid;
+    width: 100%;
+}
+.new-owner{
+    border: solid;;
+    display: flex;
+}
+.another-owner-button{
+    border: solid;
+    width: 100%;
+}
+.onboard-or-not{
+    border: solid;
+    width: 100%;
+    display: flex;
+    justify-self: flex-end;
+} */
+
+
+
+.onboard-new-retailer-heading{
+    /* border-bottom: solid 1px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    /* padding-left: 20px; */
+    border-top: solid #F6F3ED 1px;
+    border-left: solid #F6F3ED 1px;
+    border-right: solid #F6F3ED 1px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+.onboard-title{
+    position: relative;
+    padding-left: 12px;
+}
+.retailer-container{
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+    box-sizing: border-box;
+    /* border: solid; */
+    border-radius: 8px;
+}
+
+.details-inner-container{
+    border: solid #F6F3ED 1px;
+
+    width: 100%;
+    display: flex;
+}
+.primary-details{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-right: solid #F6F3ED 1px;
+    position: relative;
+    padding-left: 12px;
+    padding-top: 36px;
+
+}
+.secondary-details{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    padding-left: 12px;
+    padding-top: 36px;
+}
+.label, .input{
+    display: block;
+}
+.label{
+    color: #977A68;
+    opacity: 1;
+    width: 100%;
+    height: 11px;
+    margin-bottom: 14px;
+}
+.input{
+    height: 46px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: solid #F6F3ED 1px;
+}
+.city-and-pin-block{
+    display: flex;
+    /* display: block; */
+    flex-direction: row;
+    width: 100%;
+}
+.input-city{
+    height: 39px;
+    width: 70%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: solid #F6F3ED 1px;
+    position: relative;
+}
+.input-pincode{
+    height: 39px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: solid #F6F3ED 1px;
+    position: relative;
+
+}
+
+.city-block{
+
+    width: 70%;
+
+
+}
+
+.pin-block{
+
+    width: 30%;
+
+    position: relative;
+    padding-right: 55px;
+}
+
+.shop-owner-details{
+    display: flex;
+    /* border: solid; */
+    width: 100%;
+    /* border: solid 1px; */
+    border-right: solid #F6F3ED 1px;
+    border-left: solid #F6F3ED 1px;
+}
+
+
+.new-owner{
+    border: solid #F6F3ED 1px;
+    display: flex;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.another-owner-button{
+    width: 100%;
+    padding-left: 8px;
+}
+.onboard-or-not{
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-self: flex-end;
+}
+.cancel{
+    width: 50%;
+    /* padding-left: 16%; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 41px;
+    align-items: center;
+}
+.onboard{
+    background: #F4A261;
+    border: none;
+    height: 39px;
+    width: 135px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-shop-owner-name-container{
+    width: 50%;
+    border-right: solid #F6F3ED 0.5px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 12px;
+}
+
+.new-shop-owner-number-and-email-container{
+    border-left: solid #F6F3ED 0.5px;
+width: 50%;
+margin-top: 24px;
+margin-bottom: 24px;
+padding-left: 12px;
+}

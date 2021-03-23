@@ -1,0 +1,43 @@
+.card-container{
+    height: 281px;
+    width: 263px;
+    border: solid #F6F3ED 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 15px;
+    background: #FFFFFF;
+}
+.card-top-number-and-logo{
+    height: 40%;
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-bottom: solid #F6F3ED 2px;
+    color: #D3CBBD;
+}
+.egg-quantity{
+    height: 60%;
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.full-tray, .single-eggs, .chatki-eggs{
+    padding: 10px;
+    color: #977A68;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+.digit{
+    color: #453322;
+    font-size: 18px;
+}

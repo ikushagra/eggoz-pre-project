@@ -1,0 +1,14 @@
+.operations-container{
+
+}
+.card-wrapper{
+    height: 50%;
+    width: 100%;
+    /* border: solid pink; */
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: center;
+    background: #FDFBF9;
+    align-items: center;
+}
