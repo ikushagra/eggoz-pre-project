@@ -1,0 +1,13 @@
+.pagination{
+    display: flex;
+}
+
+.page-item{
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.page-link:focus{
+    border-bottom: blue solid;
+}

@@ -8,9 +8,9 @@ import SalesDashboard from './SalesDashboard'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Signup/>
-    <Login/>
-    <SalesDashboard/>
+    {/* <Signup/> */}
+    {/* <Login/> */}
+    {/* <SalesDashboard/> */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')

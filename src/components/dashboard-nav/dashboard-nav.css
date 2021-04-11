@@ -1,10 +1,10 @@
 .dashboard-nav{
     height: 10%;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: grey solid;
+    border-bottom: #F6F3ED solid 1px;
     /* background: #FDFBF9; */
     box-sizing: border-box;
     margin: 20px;
@@ -15,19 +15,41 @@
     /* border: solid black; */
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 70%;
     justify-content: flex-start;
+    font-size: 2vw;
 
 }
-.dashboard-nav-icons{
+.dashboard-notification-icons{
     display: flex;
     justify-content: center;
     /* border: solid black; */
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 30%;
     box-sizing: border-box;
     justify-content: flex-end;
+}
 
+.message, .bell, .dp{
+    padding: 8px;
+}
+.hamburger{
+    margin-right: 20px;
+    cursor: pointer;
 
+}
+
+@media all and (max-width: 600px){
+    .dashboard-nav{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: #F6F3ED solid 1px;
+        /* background: #FDFBF9; */
+        box-sizing: border-box;
+        margin: 20px;
+    }
 }
