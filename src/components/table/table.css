@@ -1,0 +1,142 @@
+.table-container{
+    height: 100%;
+    /* width: 100%; */
+    margin-left: 12px;
+    margin-right: 12px;
+    /* border: solid; */
+}
+.stocks-heading{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: flex-start;
+    /* border: solid; */
+    height: 100%;
+    width: 70%;
+}
+.stocks{
+padding-left: 20px;
+font-size: 20px;
+}
+.stocks-and-pages{
+    height: 10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* border: solid 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+}
+.page-and-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    /* border: solid; */
+}
+.page,.items{
+    color: #977A68;
+}
+.table-and-contents{
+
+}
+
+.contents-table{
+background: #ffffff;
+}
+
+.inside-table{
+    border: solid 1px;
+    border-collapse:collapse ;
+    width: 100%;
+
+}
+th,td{
+    /* border: solid 1px; */
+    border: solid 1px #F6F3ED;
+}
+
+
+.heading-id{
+height: 40px;
+width: 40px;
+}
+
+/* .real-id{
+    height: 40px;
+width: 90px;
+border: solid 1px;
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+.bottom-options,.paging{
+    display: flex;
+    width: 100%;
+}
+.table-actions-section-1, .table-actions-section-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.prev, .page-numbers, .next{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.bottom-container{
+    /* border: solid 1px; */
+    border-top: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: #ffffff;
+    height: 90px;
+
+}
+
+th{
+    height: 40px;
+    width: 40px;
+    color: #977A68;
+    font-weight: normal;
+    
+}
+td{
+    padding: 16px;
+    font-size: 13px;
+    text-align: center;
+}
+.bottom-options{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paging{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+select {
+    border:none;
+    color:#977A68;
+
+}
+
+
+
+@media all and (max-width: 600px){
+    .inside-table{
+        border: solid 1px;
+        border-collapse:collapse ;
+        width: 100vw;
+    
+    }
+}
